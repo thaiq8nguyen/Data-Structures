@@ -176,11 +176,3 @@ class Queue:
 
     def len(self):
         return len(self.storage)
-
-
-# queue = Queue()
-# queue.enqueue(100)
-# queue.enqueue(101)
-
-# print(queue.dequeue())
-# print(queue.dequeue())
